@@ -1,0 +1,10 @@
+body {
+        font-family: 'Noto Sans', sans-serif;
+    
+        
+     }
+
+#div {
+        font-family: myFirstFont;
+        src: url(sansation_light.woff);
+     }
