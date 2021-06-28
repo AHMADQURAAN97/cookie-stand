@@ -1,7 +1,9 @@
 'use strict';
 
-// FIRST LOCATION
+
 let openhours = ['6am', '7am', '8am', '9am', '10am', '11am', '12bm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
+// FIRST LOCATION
+
 
 let seattle =  {
 
@@ -69,7 +71,7 @@ seattle.render();
 
 // SECOND LOCATION
 
-let openhours = ['6am', '7am', '8am', '9am', '10am', '11am', '12bm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
+
 
 let Tokyo =  {
 
@@ -131,12 +133,12 @@ render:function(){
 
 }
 console.log(Tokyo);
-seattle.randcushour();
-seattle.getpurchased();
-seattle.Tokyo();
+Tokyo.randcushour();
+Tokyo.getpurchased();
+Tokyo.render();
 
 // THIRD LOCATION
-let openhours = ['6am', '7am', '8am', '9am', '10am', '11am', '12bm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
+
 
 let Dubai =  {
 
@@ -198,13 +200,13 @@ render:function(){
 
 }
 console.log(Dubai);
-seattle.randcushour();
-seattle.getpurchased();
-seattle.Dubai();
+Dubai.randcushour();
+Dubai.getpurchased();
+Dubai.render();
 
 // FORTH SECTION
 
-let openhours = ['6am', '7am', '8am', '9am', '10am', '11am', '12bm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
+
 
 let Paris =  {
 
@@ -266,13 +268,12 @@ render:function(){
 
 }
 console.log(Paris);
-seattle.randcushour();
-seattle.getpurchased();
-seattle.Paris();
+Paris.randcushour();
+Paris.getpurchased();
+Paris.render();
 
 // 5 SECTION
 
-let openhours = ['6am', '7am', '8am', '9am', '10am', '11am', '12bm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
 
 let Lima =  {
 
@@ -334,6 +335,6 @@ render:function(){
 
 }
 console.log(Lima);
-seattle.randcushour();
-seattle.getpurchased();
-seattle.Lima();
+Lima.randcushour();
+Lima.getpurchased();
+Lima.render();
