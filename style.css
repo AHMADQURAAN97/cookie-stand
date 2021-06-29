@@ -1,15 +1,20 @@
 body {
         font-family: 'Noto Sans', sans-serif;
     background-color: azure;
-        background-image: -moz-element(salamon.jpg);
-     };
+        
+};
 
 
 #div {
         font-family: myFirstFont;
         src: url(sansation_light.woff);
-     }
+     };
 
      h1 {
              background-color: burlywood;
-     }
+     };
+     
+
+     table tr th td {
+  border: 1px solid;
+};
