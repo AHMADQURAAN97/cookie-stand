@@ -182,8 +182,22 @@ Location.prototype.render = function () {
 
 
 
+ let myForm =document.getElementById('myForm');
+ myForm.addEventListener('submit',addlocation);
+ 
+ function addlocation(event){
+  event.preventDefault();
 
 
+  let name = event.terget.name.value;
+  let mincus = event.terget.mincus.value;
+  let maxcus = event.terget.maxcus.value;
+  let avgcookiescustomer = event.terget.avgcookiescustomer.value;
+
+  let newLoc =new Location(name,mincus,maxcus,avgcookiescustomer)
+  newLoc.render();
+  
+ }
 
 
 
