@@ -181,7 +181,7 @@ Location.prototype.render = function () {
         createFooter();
 
 
-
+//--------------------------------------------------------form
  let myForm =document.getElementById('myForm');
  myForm.addEventListener('submit',addlocation);
  
@@ -189,14 +189,20 @@ Location.prototype.render = function () {
   event.preventDefault();
 
 
-  let name = event.terget.name.value;
-  let mincus = event.terget.mincus.value;
-  let maxcus = event.terget.maxcus.value;
-  let avgcookiescustomer = event.terget.avgcookiescustomer.value;
+  let name = event.target.name.value;
+  console.log(name);
+  let mincus = event.target.mincus.value;
+  console.log(mincus);
+  let maxcus = event.target.maxcus.value;
+  console.log(maxcus);
+  let avgcookiescustomer = event.target.avgcookiescustomer.value;
+  console.log(avgcookiescustomer);
 
   let newLoc =new Location(name,mincus,maxcus,avgcookiescustomer)
+  newLoc.randCushour();
+  newLoc.getpurchased();
   newLoc.render();
-  
+ 
  }
 
 
