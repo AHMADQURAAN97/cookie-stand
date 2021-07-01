@@ -182,6 +182,7 @@ Location.prototype.render = function () {
 
 
 //--------------------------------------------------------form
+
  let myForm =document.getElementById('myForm');
  myForm.addEventListener('submit',addlocation);
  
@@ -199,10 +200,14 @@ Location.prototype.render = function () {
   console.log(avgcookiescustomer);
 
   let newLoc =new Location(name,mincus,maxcus,avgcookiescustomer)
+  // createTableHeader();
+  
+  tableEl.deleteRow(tableEl.rows.length - 1);
   newLoc.randCushour();
   newLoc.getpurchased();
   newLoc.render();
- 
+  
+  createFooter();
  }
 
 
