@@ -1,13 +1,15 @@
 body {
-        font-family: 'Noto Sans', sans-serif;
-    background-color: burlywood;
+    background-color: rgba(222, 206, 135, 0.452);
+    font-family: Georgia, serif;
+   
 }
 
 
- h1 {
+ h1 {     font-family: 'Trebuchet MS', sans-serif;
          display: flex;
 justify-content: center;
         text-align: center ;
+        color: rgb(88, 0, 139);
 }
 
  nav ul li   {
