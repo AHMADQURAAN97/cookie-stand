@@ -191,14 +191,30 @@ Location.prototype.render = function () {
 
 
   let name = event.target.name.value;
-  console.log(name);
+  while (name == '') {
+    
+    return ;
+    
+  }
   let mincus = event.target.mincus.value;
-  console.log(mincus);
+  while (mincus == '') {
+    
+    return ;
+    
+  }
   let maxcus = event.target.maxcus.value;
-  console.log(maxcus);
+  while (maxcus == '') {
+    
+    return ;
+    
+  }
   let avgcookiescustomer = event.target.avgcookiescustomer.value;
-  console.log(avgcookiescustomer);
-
+ 
+  while (avgcookiescustomer == '') {
+    
+    return ;
+    
+  }
   let newLoc =new Location(name,mincus,maxcus,avgcookiescustomer)
   // createTableHeader();
   
